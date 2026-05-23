@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+--dark: #3b2f2a;
+--brown: #4a3728;
+--accent: #7b6b3a;
+--light: #fdfaf6;
+--cream: #f9f3eb;
+--gray: #6b5b4f;
+--gold: #c8a27a;
+--white: #fff;
+--font-main: 'Segoe UI', system-ui, sans-serif;
+--size-base: 1.6rem;
+--size-small: 1.4rem;
+--size-h1: 4.8rem;
+--size-h2: 3.2rem;
+--size-h3: 2rem;
+--size-lead: 2rem;
+--line-height: 1.6;
+--weight-normal: 400;
+--weight-bold: 600;
+--weight-black: 800;
+}
+
+body {
+    font-family:var(--font-main);
+    font-size:var(--size-base);
+    line-height:var(--line-height);
+    color: var(--dark);
+    background:var(--light);
+}
+img {
+    display:block;
+    max-width:100%;
+}
