@@ -7,10 +7,72 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header"></header>
+    <div class="header">
         <div class="header__container"></div>
-        <a href='#'
-        class="header__logo">Аро<span
-        class="header__logo-span">мат</span></a>
+        <div class="header__logo">Аромат
+        <div class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#menu"
+                class="nav__link">Меню</a></li>
+                <li class="nav__item"><a href="#gallery"
+                class="nav__link">Галерея</a></li>
+                <li class="nav__item"><a href="#about"
+                class="nav__link">О нас</a></li>
+                <li class="nav__item"><a href="#contact"
+                class="nav__link">Контакты</a></li>
+            </ul>
+            </div>
+        </div>
+        <a href="#menu" class="btn-primary">Заказать</a>
+        <div class="hero" id="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Кофе с душой и характером</h1>
+                <p class="hero__subtitle">Свежая обжарка, уютная атмосфера и искренний сервис - каждый день с 7:00 до 22:00</p>
+                <a href="#menu" class ="btn-outline">Смотреть меню</a>
+            </div>
+        </div>
+        <div class="section_menu" id="menu">
+            <div class="container">
+                <h2 class="section__title">Наше меню</h2>
+                <div class="menu__grid">
+                    <div class="card">
+                        <img src="https://coffee-static.storage.yandexcloud.net/files/shares/data/blog/popular-drinks/image3.png" alt="Флэт Уайт"
+                        class="card__image">
+                        <div class="card__body">
+                        <h3 class="card__title">Флэт уайт — яркий кофейный вкус</h3>
+                        <p class="card__desc">Флэт уайт — самый насыщенный по вкусу молочный напиток на основе эспрессо. Его особенно любят ценители вкуса эспрессо в чашке.</p>
+                        <div class="card__footer">
+                            <span class="card__price">350 ₽</span>
+                            <a href="#" class="btn--primary">В корзину</a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://shop.tastycoffee.ru/files/shares/data/blog/capuccino-latte-flatwhite/image4.jpg" alt="Латте"
+            class="card__image">
+            <div class="card__body">
+                <h3 class="card__title">Латте — лёгкий кофейно-сливочный вкус</h3>
+                <p class="card__desc">Латте — самый большой и самый молочный кофейный напиток на основе эспрессо. Подойдёт для тех, кто не любит яркий вкус кофе.</p>
+                <div class="card__footer">
+                    <span class="card__price">320 ₽</span>
+                    <a href="#" class="btn--primary">В корзину</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://img.magnific.com/premium-photo/espresso-coffee-cup-with-beans-vintage-table_343960-9791.jpg" alt="Эспрессо"
+            class="card__image">
+            <div class="card__body">
+                <h3 class="card__title">Эспрессо - концентрированный кофейный напиток</h3>
+                <p class="card__desc">Эспрессо - подойдет тем, кто ценит насыщенный вкус кофе и быстрый заряд бодрости без лишнего объема напитка.</p>
+                <div class="card__footer">
+                    <span class="card__price">180 ₽</span>
+                    <a href="#" class="btn--primary">В корзину</a>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
